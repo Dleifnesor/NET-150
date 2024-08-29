@@ -1,0 +1,9 @@
+OSI model - Open system interconnect 
+
+1. Physical     Signals and media     NICs, twisted-pair cable, fiber
+2. Data link     Provides for the flow of data     MAC addresses
+3. Network     Provides routing decisions     IP, IPX
+4. Transport     Ensures error-free packets     TCP, UDP
+5. Session     Establishes, manages, and terminates sessions     NFS, SQL6.  Presentation     Protocol conversion, data translation     ASCII, JPEG
+7. Application     Support for applications     HTTP, FTP, SMTP (email)
+
