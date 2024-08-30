@@ -1,0 +1,37 @@
+Open systems interconnection
+
+the way data travels through a network to and from IP addresses
+
+A Priest Saw Two Nuns Doing Pushups
+
+Application - the data that the computer is sending 
+
+Presentation - Compression, encryption, other encoding
+
+Session - Session setup and teardown
+
+Transport - Port numbers tell receiver what application the data is meant for
+
+Network - IP addresses of sender and receiver 
+
+Data link - Defines how packets are sent over the layer, prevents data collisions (makes it safe to send, ie waiting to send to prevent an overflow of data)
+
+Physical layer - How bits are physically sent over media (ethernet cables, fiber optic) 
+
+(port 80 - HTTP, port 25 - SMPT, port 22 - SSH)
+
+Having separation of OSI layers is helpful for troubleshooting, as it helps narrow down problems to a layer(s)
+
+IPv4 - xxx.xxx.xxx.xxx 0-255
+Ipv6 - xx:xx:xx:xx:xx:xx 0-9, A-F
+
+Dividing protocols into layers helps to manage the complexity of a network into separate processes 
+
+Data link - mac addresses 
+internet - IP
+DNS - application
+TCP, UDP - transport
+
+Layered models assist in protocol design, as protocols that operate at a specific layer have defined information that they act upon and a defined interface to the layers above and below
+also prevents technology or capability changes in one layer from affecting other layer above and below
+provides a common language to describe networking functions 
