@@ -7,3 +7,12 @@ OSI model - Open system interconnect
 5. Session     Establishes, manages, and terminates sessions     NFS, SQL6.  Presentation     Protocol conversion, data translation     ASCII, JPEG
 7. Application     Support for applications     HTTP, FTP, SMTP (email)
 
+The star network config is the most common network topology, as it minimizes both the cabling costs, 
+and offers less chance of errors like from Bus topology
+
+bus topology suffers from the possibility of simultaneous transmissions resulting in errors / packet loss
+
+Mesh networks have the benefit of full redundancy as every networking device is connected to every other network device 
+with its own cabling, this is good for applications that require full redundancy 
+however it can be too costly for general networking applications as it exponentially increases set up time and 
+networking hardware cost (office spaces).
