@@ -1,0 +1,5 @@
+Cool commands :D
+
+Ipconfig and ipconfig/all - shows the IP address and /all shows the DNS server, MAC, and a buncha other info
+Tracert (traceroute in linux) - shows all the routers a packet travels through to get to the destinaton address
+ping, sends a packet to test if a packet can be recieved and confirmed to an address
