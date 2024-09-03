@@ -4,3 +4,28 @@ LAN - (local area network)
 WAN - (Wide area network)
 PAN - (Personal area network like bluetooth)
 MAN - (Metropolitan area network)
+
+ascending area network - nano, BAN, PAN, LAN, CAN, MAN, RAN, WAN
+
+A LAN is a computer netowrt that interconnects computers within a limited area
+
+Ethernet - protocol used for wired connections 
+WIFI - protocol ised for wireless communication
+
+Topologies -------
+Bus topology - kinda like daisy chaining a single coax cable between several networking devices
+
+Ring Topology - not commonly used
+pros - every system gets theier turns, no collisions
+cons - many systems are often idle, can be inefficient
+
+Mesh topology - every device is interconnected with their own cable to each other
+pros - highly redundant 
+cons - complicated and expensive, does not scale well
+
+Star topology - verry common in modern LANs 
+pros - cable breakages only affect one node, nodes dont have to share cables to the central device
+cons - uses a lot of cabling, if central device fails, the whole network goes down
+
+Star mesh hybrid topology
+pros - balance of effeciency and redundancy, star is used to connect user devices, and the backbone devices are meshed so they have a level of redundancy
