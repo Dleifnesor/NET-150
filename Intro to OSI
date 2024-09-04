@@ -35,3 +35,5 @@ TCP, UDP - transport
 Layered models assist in protocol design, as protocols that operate at a specific layer have defined information that they act upon and a defined interface to the layers above and below
 also prevents technology or capability changes in one layer from affecting other layer above and below
 provides a common language to describe networking functions 
+
+Each of the OSI layers has its own systems in place, sometimes they are integrated into one, especially with the advent of wireless communication systems
